@@ -14,4 +14,5 @@ Pod::Spec.new do |spec|
    spec.frameworks = "UIKit", "Foundation"
    spec.requires_arc = true
    spec.xcconfig = {'BITCODE_GENERATION_MODE' => 'bitcode'}
+
 end
